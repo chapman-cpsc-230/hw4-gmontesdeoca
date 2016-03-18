@@ -12,8 +12,8 @@ def count_pairs (dna, pair):
         if c == base:
             i +=1
     return 1
-dna= "ATGCGGACCTAT"
-base= "C"
+dna= 'ATGCGGACCTAT'
+base= "AT"
 n= count_pairs
 
 print "%s appears %d times in %s" (base, n, dna)
