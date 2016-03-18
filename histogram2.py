@@ -5,15 +5,16 @@ License: MIT
 <Enhanced histogram>
 """
 
-user_input= raw_input("Enter a positive number here: ")
-n=int(user_input)
+ls= [4,9,13,5]
 
-def histogram2("Data", [4, 9, 13, 5]):
+def histogram2(lst):
     print " n | Data"
     print "---+-------------------"
-    st = ""
-    for i in range(n):
-        st = ""
-        for j in range(n):
+
+    for i in lst:
+        st=""
+        for j in range(i):
             st += "*"
-print st "|" ls(4,9,13,5)
+        print len(st), "|", st
+
+histogram2(ls)

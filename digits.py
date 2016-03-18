@@ -5,12 +5,10 @@ License: MIT
 <Determining the number of digits in an integer>
 """
 
-user_input=raw_input("Enter a number here: "")
+user_input=raw_input("Enter a number here: ")
 n=int(user_input)
 
-
 def digits(x):
-    if x%2 == 0:
-        n is even
-    else:
-        n
+    st=str(n)
+    return len(st)
+print digits(n)
